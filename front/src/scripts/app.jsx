@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../styles/style.scss';
+import App from './components/pages/index';
 
-const title = 'Hello, React!';
-ReactDOM.render(<div>{title}</div>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
